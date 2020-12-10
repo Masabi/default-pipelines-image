@@ -10,6 +10,7 @@ RUN apt-get update \
         git \
         ssh-client \
         unzip \
+        jq \
     && rm -rf /var/lib/apt/lists/*
 
 # Install awscli
