@@ -9,6 +9,7 @@ RUN apt-get update \
         curl \
         git \
         ssh-client \
+        zip \
         unzip \
         jq \
     && rm -rf /var/lib/apt/lists/*
